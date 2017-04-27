@@ -1,0 +1,25 @@
+.jumbotron{
+	background-color: transparent;
+	width: 100%;
+	color:white;
+	
+}
+
+body{
+	background-image: url("school.jpg");
+	background-size: cover;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+button{
+	background-color: red;
+}
+
+input{
+	color:black;
+	text-align: center;
+}
+
+.grades{
+	color:yellow;
+}

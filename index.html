@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Head -->
+<head>
+	<title>Grades</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="styles.css">
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Anton|Open+Sans+Condensed:700" rel="stylesheet">
+
+</head>
+
+<!-- Content of Page -->
+<body>
+	<div class="jumbotron text-center">
+	  <h1>Hello, Grades!</h1>
+	  <p>Please enter your numeric(0-100) in following boxes. Click on the 'Letter Grades' button to see your letter grades. Click on the 'GPA' button to see your grade point average.</p>
+
+	  <form class="grades">
+		  Grade1:<br>
+		  <input id ="g1" type="text"><h3 id="grade1" class="text-center"></h3>
+		  <br>
+		  Grade2:<br>
+		  <input id ="g2" type="text"><h3 id="grade2" class="text-center"></h3>
+		  <br>
+		  Grade3:<br>
+		  <input id ="g3" type="text"><h3 id="grade3" class="text-center"></h3>
+		  <br>
+		  Grade4:<br>
+		  <input id ="g4" type="text"><h3 id="grade4" class="text-center"></h3>
+		  <br>
+		  Grade5:<br>
+		  <input id ="g5" type="text"><h3 id="grade5" class="text-center"></h3>
+		  <br>		  
+		</form> 
+ 
+	  <div class="container text-center">
+		  <button onClick="converter()">Letter Grades</button>
+		  <button onClick="average()">GPA</button>
+		</div>
+	  <h3 id="gpa" class="grades text-center"></h3> 
+
+	</div>
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<!-- Custom JS -->
+	<script src="script.js"></script>
+
+</body>
+</html>
